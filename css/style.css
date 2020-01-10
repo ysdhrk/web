@@ -25,6 +25,9 @@ p {
   padding: 0px;
   font-size: 18px;
   font-weight: bold;
+  color : #F66d08;
+    text-shadow:2px 2px 3px #FF9900;
+}
 }
 
 ul {
@@ -78,7 +81,7 @@ a:hover {
 .colorfilter-base {
   background-image: url(../images/benriya.jpg);
   background-repeat : repeat-x;
-  opacity: 0.5;     カラーフィルタ効果の度合いを指定
+  /*opacity: 0.9;     カラーフィルタ効果の度合いを指定*/
   width: 100%;
   height: 560px;
   z-index: 1;
@@ -91,6 +94,7 @@ nav ul{
   width: 100%;
   text-align: center;
   table-layout: fixed;
+  margin-bottom: 30px;
 }
 nav ul li{
   display: table-cell;
@@ -107,6 +111,9 @@ nav ul li a{
   width: 100%;
   padding: 10px 0px;
   color: #fff;
+  text-shadow: 3px 3px 0 #f66d08;
+  -webkit-text-stroke: 1px #f66d08;
+  text-stroke: 1px #f66d08;
 }
 
 nav ul li a:hover{
@@ -134,6 +141,20 @@ h1 {
   width: 250px;
   z-index: 2;
 }
+
+.example {
+  position: relative;
+  }
+
+.example .win {/*classがwinのアイコンに対して*/
+  position: absolute;
+  top: 10px;
+  left:42%;
+  }
+
+
+
+
 .header > .vessel {
   margin: 0 auto;
   width: 1000px;
@@ -230,6 +251,9 @@ h2 {
   background: #FF9900; /*背景*/
   border: 3px solid #f66d08; /*枠線の幅、線種、色*/
   border-radius: 10px;  /*角丸の指定*/
+  text-shadow: 3px 3px 0 #f66d08;
+  -webkit-text-stroke: 1px #f66d08;
+  text-stroke: 1px #f66d08;
 }
 .gmain p {
   width: 100%;
@@ -249,9 +273,9 @@ h2 {
   filter: drop-shadow(5px 5px 3px rgba(0,0,0,0.6));
 }
 .item-title {
-  color: #FF9900;
-  background: #fff; /*背景*/
-  border: 3px solid #FF9900; /*枠線の幅、線種、色*/
+  color: #F66d08;
+  background: #f5c8a8; /*背景*/
+  border: 3px solid #F66d08; /*枠線の幅、線種、色*/
   border-radius: 10px;
   letter-spacing: 0.02em;
 }
